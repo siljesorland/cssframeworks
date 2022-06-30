@@ -1,0 +1,8 @@
+$colours: ( primary: #8DBDE7, secondary :#81CFC2, white: #ffffff, );
+$font-primary: "open sans",
+sans-serif;
+$font-headings: "Gentium Book Basic",
+sans-serif;
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

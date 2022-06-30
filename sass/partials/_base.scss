@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family: $font-primary;
+    background-color: $primary;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: $secondary;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
